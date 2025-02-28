@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-//part of 16
+
 /**
  * Write a description of class test here.
  *
@@ -20,9 +19,6 @@ public class test
     private int deduction;
     //part of 14
     
-    private int currentYear = 2025;
-    //part of 15
-    
     //Question 14
     public int netPayForXTime(){
         workedHours = 8;
@@ -34,31 +30,7 @@ public class test
         System.out.println("Your net pay is: " + netPay);
         return netPay;
     }
-    // Question 15
-    public int yearOfBirth(){
-        int yearOfBirth = 2020;
-        int age = currentYear - yearOfBirth;
-        int legalAgeToDrive = 16;
-        if (age >= legalAgeToDrive){
-            System.out.println("The user can legally drive.");
-        }
-        else{
-            int missingYears = legalAgeToDrive -age;
-            System.out.println("The User can ilegally drive. Wait " + missingYears + " years to legally drive.");
-        }
-        return age;
-    }
-    //Question 16
-    //public class Zoo{
-        //private ArrayList<Bird> zooBirds;
-        //int countBlueBirds(){
-            //for(zooBirds = cloro.birds){
-                //blueBirds = 0;
-                //blueBirds++;
-            //}
-            //System.out.println("There is " + blueBirds + " blue birds.");
-        //}
-    //}
+    
     //Question 17
     
 }
